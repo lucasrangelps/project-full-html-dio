@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - HTML</title>
+    <img src="https://pixabay.com/get/g5f696c6a576705d2f56f376d4bcce988046417cd255172c4cc8ff4bc0e059eef88d9f7af320137931ec251729d276da5d19f08e08a275883b2ee6d1c8673ec61b2b36c9ffe08ab000277e098f9b8fc5d_640.jpg">
+</head>
+<body>
+    <h1 id="inicio">Módulo 1 - HTML</h1>
+    <hr />
+
+    <h2>Índice</h2>
+    
+    <ul>
+        <li><a href="#historia">História da WEB</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estrutura">Estrutura básica de um HTML</a></li>
+        <li><a href="#referencias">Links de referências</a></li>
+    </ul>
+
+    <h2 id="historia">História da Web</h2>
+    <!--Utilizando tag IMG-->
+    <img src="https://pixabay.com/get/g2860397731cae391a50d928e64eb881dbb40e0d667107c87af337a4a3edbca1229c61e8550fde09388d66d35a18e7d89315d806d1bb96487f7a0c5b1fb3aa052f66533354a18222169a159625eefdae0_640.jpg">
+
+    <!--Historia da Web-->
+    <h3 style="font-family: 'Courier New', Courier, monospace;">Contexto Pré-Web</h3>
+    <p><blockquote>Antes da <strong>WWW</strong>, a internet existia principalmente como uma rede de comunicação entre universidades e instituições de pesquisa. O acesso era limitado e a navegação era feita principalmente por meio de interfaces de linha de comando.</p></blockquote>
+
+    <h3 style="font-family: 'Courier New', Courier, monospace;">Inventor</h3>
+    <p>A <strong>WWW</strong> foi concebida por <u>Sir Tim Berners-Lee</u>, um cientista da computação britânico, enquanto trabalhava no <i><abbr title="Organização Europeia para a Pesquisa Nuclear">CERN</abbr></i>  em 1989. Ele propôs um sistema de gerenciamento de informação descentralizado.</p>
+    
+    <h3 style="font-family: 'Courier New', Courier, monospace;">Protocolos Fundamentais</h3>
+    <p><u>Berners-Lee</u> desenvolveu os protocolos fundamentais que permitiram a comunicação entre computadores na internet, incluindo o <strong>HTTP</strong> <i>(Hypertext Transfer Protocol)</i> para transferência de dados e o <strong>HTML</strong> <i>(Hypertext Markup Language)</i> para a formatação de páginas da web.</p>
+
+    <h3 style="font-family: 'Courier New', Courier, monospace;">Lançamento Público</h3>
+    <p> Em 1991, <u>Berners-Lee</u> lançou publicamente o primeiro site da web o <a href="https://info.cern.ch/hypertext/WWW/TheProject.html">The World Wide Web project</a>, tornando a <strong>WWW</strong> acessível ao público. Esse site explicava o que era a World Wide Web e como os usuários poderiam criar suas próprias páginas.</p>
+
+    <h3 style="font-family: 'Courier New', Courier, monospace;">Expansão e Popularização</h3>
+    <p>Nos anos seguintes, a <strong>WWW</strong> cresceu rapidamente à medida que mais sites foram criados e mais pessoas começaram a usá-la para compartilhar informações, comunicação e comércio.</p>
+
+    <h3 style="font-family: 'Courier New', Courier, monospace;">Navegadores</h3>
+    <p>lançamento de navegadores como o Mosaic e, posteriormente, o Netscape Navigator, tornou a navegação na web mais fácil e acessível para o público em geral. <mark>Isso popularizou ainda mais a <strong>WWW</strong></mark></p></blockquote>
+
+    <a href="#inicio">Voltar Topo</a>
+    <hr />
+
+    <!--Cliente e Servidor-->
+    
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+    <p>Um cliente da web é um aplicativo do lado do cliente usado para conectar-se a uma web server Acima de HTTP. É tipicamente um navegador web ou aplicativo da web que exibe páginas da web recebidas do server e permite que os usuários interajam com a web server.</p>
+    
+
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+    <p>O servidor é o computador ou software central que forma uma arquitetura conhecida como <i>“cliente – servidor”</i> com outros dispositivos, como computadores, tablets e smartphones. O servidor, <del>portanto</del>, centraliza todas as informações e demais dados dentro de uma rede.</p>
+    <img src="https://pixabay.com/get/g29a35945ecd931b96034c63afb2f47e346a870ef8225065f983b57267ffe12e2fd982b8046504478f17b01b64f10f61d822677316dd117330e25f6042ee16d3247a86b9a1b123f4d857fd6b8d6dec8d3_640.png">
+
+
+
+    <!--Estrutura de um documento html-->
+    <h2 id="estruturas">Estrutura básica de um HTML</h2>
+    <p>O documento <strong>HTML</strong> sempre inicia com o que chamamos de estrutura básica. Sempre será dessa forma e você sempre, sempre inicia seu HTML por esse código.</p>
+    <p>Geralmente dividida em 3 partes:</p>
+        <ol>
+            <li>Definição do documento (doctype)</li>
+            <p>Contém instruções para o navegador e outros programas que podem ler seu site, que o código encontrado ali é um código HTML.</p>
+            
+            <li>Cabeça (head)</li>
+            <p>Contém informações que não são transpostas visivelmente para o usuário/leitor do documento. São dados implícitos, de uso e controle do documento.</p>
+
+            <li>Corpo (body)</li><p>Trata-se do documento em si, ou seja, a informação legível para o usuário/leitor do documento. É todo e qualquer texto que se deseja apresentar, assim como toda e qualquer forma de mídia de saída (imagens, sons, miniaplicativos embutidos, conteúdo multimídia, etc).</p>
+        </ol>
+
+    
+
+    
+
+    <img src="https://pixabay.com/get/g5f696c6a576705d2f56f376d4bcce988046417cd255172c4cc8ff4bc0e059eef88d9f7af320137931ec251729d276da5d19f08e08a275883b2ee6d1c8673ec61b2b36c9ffe08ab000277e098f9b8fc5d_640.jpg">
+    
+    <h2 id="referencias">Referências</h4>
+
+        <a href="https://tableless.github.io/iniciantes/manual/html/estruturabasica.html">GETTING STARTED</a> <small>Acesso em:12/08/2024.</small>
+    
+    <hr />
+
+    <footer style="text-align: center;">
+    <ul>
+        <li><a href="https://www.linkedin.com/in/lucas-rangel-270109176/">Lucas Rangel</a></li>
+        <li><a href="https://www.dio.me">DIO</a></li>
+        <li><a href="#inicio">Voltar Topo</a></li>
+    </ul>
+    </footer>
+
+</body>
+</html>
